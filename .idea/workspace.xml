@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="305b0b4e-58d0-483e-b5bb-b3f7f0131bea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/check_dns.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_dns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_tools.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,14 +35,14 @@
           <entry key="conf" value="58" />
           <entry key="dummy" value="8" />
           <entry key="json" value="160" />
-          <entry key="py" value="3590" />
+          <entry key="py" value="3601" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="160" />
           <entry key="PLAIN_TEXT" value="66" />
-          <entry key="Python" value="3590" />
+          <entry key="Python" value="3601" />
         </counts>
       </usages-collector>
     </session>
@@ -105,19 +102,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="417">
+              <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
               <folding>
                 <element signature="e#181#209#0" expanded="true" />
-                <marker date="1542788976660" expanded="true" signature="532:537" ph="..." />
-                <marker date="1542788976660" expanded="true" signature="543:544" ph="..." />
-                <marker date="1542788976660" expanded="true" signature="581:1270" ph="..." />
-                <marker date="1542788976660" expanded="true" signature="1291:1296" ph="..." />
-                <marker date="1542788976660" expanded="true" signature="1519:1524" ph="..." />
-                <marker date="1542788976660" expanded="true" signature="1756:2583" ph="..." />
-                <marker date="1542788976660" expanded="true" signature="2693:2694" ph="..." />
-                <marker date="1542788976660" expanded="true" signature="2693:2698" ph="..." />
-                <marker date="1542788976660" expanded="true" signature="3334:3339" ph="..." />
+                <marker date="1542789123125" expanded="true" signature="532:537" ph="..." />
+                <marker date="1542789123125" expanded="true" signature="543:544" ph="..." />
+                <marker date="1542789123125" expanded="true" signature="581:1270" ph="..." />
+                <marker date="1542789123125" expanded="true" signature="1291:1296" ph="..." />
+                <marker date="1542789123125" expanded="true" signature="1519:1524" ph="..." />
+                <marker date="1542789123125" expanded="true" signature="1756:2583" ph="..." />
+                <marker date="1542789123125" expanded="true" signature="2693:2694" ph="..." />
+                <marker date="1542789123125" expanded="true" signature="2693:2698" ph="..." />
+                <marker date="1542789123125" expanded="true" signature="3358:3363" ph="..." />
               </folding>
             </state>
           </provider>
@@ -305,19 +302,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my_tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="417">
+          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
           <folding>
             <element signature="e#181#209#0" expanded="true" />
-            <marker date="1542788976660" expanded="true" signature="532:537" ph="..." />
-            <marker date="1542788976660" expanded="true" signature="543:544" ph="..." />
-            <marker date="1542788976660" expanded="true" signature="581:1270" ph="..." />
-            <marker date="1542788976660" expanded="true" signature="1291:1296" ph="..." />
-            <marker date="1542788976660" expanded="true" signature="1519:1524" ph="..." />
-            <marker date="1542788976660" expanded="true" signature="1756:2583" ph="..." />
-            <marker date="1542788976660" expanded="true" signature="2693:2694" ph="..." />
-            <marker date="1542788976660" expanded="true" signature="2693:2698" ph="..." />
-            <marker date="1542788976660" expanded="true" signature="3334:3339" ph="..." />
+            <marker date="1542789123125" expanded="true" signature="532:537" ph="..." />
+            <marker date="1542789123125" expanded="true" signature="543:544" ph="..." />
+            <marker date="1542789123125" expanded="true" signature="581:1270" ph="..." />
+            <marker date="1542789123125" expanded="true" signature="1291:1296" ph="..." />
+            <marker date="1542789123125" expanded="true" signature="1519:1524" ph="..." />
+            <marker date="1542789123125" expanded="true" signature="1756:2583" ph="..." />
+            <marker date="1542789123125" expanded="true" signature="2693:2694" ph="..." />
+            <marker date="1542789123125" expanded="true" signature="2693:2698" ph="..." />
+            <marker date="1542789123125" expanded="true" signature="3358:3363" ph="..." />
           </folding>
         </state>
       </provider>

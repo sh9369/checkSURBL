@@ -102,6 +102,7 @@ def analyse_info(data):
         answer=ii[1]
         # check domain
         xf_info=xf.start(2,[domain])
+        time.sleep(0.5)
         # check answer
         last_one=int(answer.split('.')[-1])
         ans_info=[]
