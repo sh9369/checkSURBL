@@ -2,7 +2,7 @@
 # -*- coding:utf8 -*-
 # @Time    : 2018/11/21 10:40
 # @Author  : songh
-# @File    : mian.py
+# @File    : main.py
 # @Software: PyCharm
 import datetime,time
 import my_tools,check_dns

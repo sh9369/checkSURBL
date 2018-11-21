@@ -28,7 +28,7 @@ def clean_dns_data(dataset):
 def get_starttime():
     tmp=__conf_dt__["time"]["start"]
     starttime=datetime.datetime.now()
-    if(tmp is not "now"):
+    if(not(tmp == "now")):
         starttime=datetime.datetime.strptime(tmp, '%Y-%m-%d %H:%M:%S')
     return starttime
 
