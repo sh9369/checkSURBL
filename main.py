@@ -30,9 +30,11 @@ def main():
     stime=my_tools.get_starttime()
     while(True):
         if stime>datetime.datetime.now():
+            print("time sleep...")
             time.sleep(stime-datetime.datetime.now())
         else:
             try:
+                print("start surbl check...")
                 surbl_run(stime)
             except Exception,e:
                 print("error:{0}".format(e))
