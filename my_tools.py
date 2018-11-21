@@ -58,7 +58,8 @@ def get_es_server():
 def clean_dns_data(dataset):
     all_data=[]
     for dic in dataset:
-        domain=dic["_source"]["domain"]
+        tmp=dic["_source"]["domain"]
+        domain=tmp.split(".multi.")[0]
         answer=dic["_source"]["answer"]
         all_data.append([domain,answer])
     return all_data
