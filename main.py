@@ -31,7 +31,7 @@ def main():
     while(True):
         if stime>datetime.datetime.now():
             print("time sleep...")
-            time.sleep(stime-datetime.datetime.now())
+            time.sleep((stime-datetime.datetime.now()).total_seconds())
         else:
             try:
                 print("start surbl check...")
