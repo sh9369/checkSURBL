@@ -16,8 +16,8 @@ step4: 拼成info告警内容，发出告警
 def first_check(starttime,timezone):
     dttime=datetime.timedelta(days=1)
     server,port,alert_idx,data_idx=my_tools.get_es_server()
-    gte=starttime-dttime
-    lte=starttime
+    gte=(starttime-dttime).strftime('%Y-%m-%d %H:%M:%S')
+    lte=starttime.strftime('%Y-%m-%d %H:%M:%S')
     es=ES_class.ESClient(iserver=server,iport=port)
     #get dns data
     dataset=es.get_dns_data(data_idx,gte,lte,timezone)
