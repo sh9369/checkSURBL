@@ -91,6 +91,8 @@ def rebuild_alert_info(domain,answer,xfinfo,ansinfo):
     try:
         doc["xforce_marks"]=int(xfinfo[domain]["score"])
     except Exception,e:
+        print("error:{0}".format(e))
+        print json.dumps(xfinfo)
         doc["xforce_marks"] = 0
     return doc
 
