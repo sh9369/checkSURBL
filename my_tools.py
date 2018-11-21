@@ -67,7 +67,8 @@ def clean_dns_data(dataset):
 def rebuild_alert_info(domain,answer,xfinfo,ansinfo):
     # info alert 模板
     doc={}
-    doc["@timestamp"]=datetime.datetime.strftime(datetime.datetime.now(),'%Y-%m-%d %H:%M:%S')
+    # timestamp 构造与 starttime 不一样
+    doc["@timestamp"]=datetime.datetime.strftime(datetime.datetime.now(),'%Y-%m-%dT%H:%M:%S')+".000+08:00"
     doc["domain"]=domain
     doc["answer"]=answer
     doc["type"]="mal_dns"
