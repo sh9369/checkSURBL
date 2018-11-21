@@ -11,13 +11,13 @@ import my_tools,check_dns
 surbl_run() 检查函数入口
 调用check_dns文件进行检查
 '''
-def surbl_run(starttime):
+def surbl_run(starttime,delta):
     time_zone = ''
     if (time.daylight == 0):  # 1:dst;
         time_zone = "%+03d:%02d" % (-(time.timezone / 3600), time.timezone % 3600 / 3600.0 * 60)
     else:
         time_zone = "%+03d:%02d" % (-(time.altzone / 3600), time.altzone % 3600 / 3600.0 * 60)
-    check_dns.check_start(starttime,time_zone)
+    check_dns.check_start(starttime,delta,time_zone)
 
 
 '''
@@ -35,7 +35,7 @@ def main():
         else:
             try:
                 print("start surbl check...")
-                surbl_run(stime)
+                surbl_run(stime,detaltime)
             except Exception,e:
                 print("error:{0}".format(e))
             #detaltime=datetime.timedelta(days=1)
