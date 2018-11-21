@@ -23,6 +23,7 @@ def first_check(starttime,timezone):
     dataset=es.get_dns_data(data_idx,gte,lte,timezone)
     # clean
     newdata=my_tools.clean_dns_data(dataset)
+    print("dns data size:{0}".format(len(newdata)))
     # analysis
     docs=my_tools.analyse_info(newdata)
     # insert es
