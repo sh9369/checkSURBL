@@ -3,7 +3,7 @@
     "start":"now"
   },
   "es_server":{
-    "server":"172.23.2.166",
+    "server":"localhost",
     "port":7218,
     "alert_index":"alert",
     "data_index":"dns-agg-*"
