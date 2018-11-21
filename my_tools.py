@@ -26,11 +26,26 @@ def clean_dns_data(dataset):
 
 # 获取 conf文件 启动时间
 def get_starttime():
-    tmp=__conf_dt__["time"]["start"]
+    time_info=__conf_dt__["time"]
+    tmp=time_info["start"]
     starttime=datetime.datetime.now()
     if(not(tmp == "now")):
         starttime=datetime.datetime.strptime(tmp, '%Y-%m-%d %H:%M:%S')
-    return starttime
+    # get interval
+    intv=time_info["interval"]
+    unit=intv[-1].lower()
+    nums=int(intv[:-1])
+    if(unit=="s"):
+        deltatime = datetime.timedelta(seconds=nums)
+    elif(unit == "m"):
+        deltatime = datetime.timedelta(minutes=nums)
+    elif(unit=="h"):
+        deltatime = datetime.timedelta(hours=nums)
+    elif(unit=='d'):
+        deltatime = datetime.timedelta(days=nums)
+    else:# by default
+        deltatime = datetime.timedelta(days=1)
+    return starttime,deltatime
 
 def get_es_server():
     isvr=__conf_dt__["es_server"]

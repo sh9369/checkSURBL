@@ -1,6 +1,7 @@
 {
   "time":{
-    "start":"now"
+    "start":"now",
+    "interval":"24h"
   },
   "es_server":{
     "server":"localhost",

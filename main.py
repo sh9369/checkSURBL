@@ -27,7 +27,7 @@ step2: 调用检查函数
 
 '''
 def main():
-    stime=my_tools.get_starttime()
+    stime,detaltime=my_tools.get_starttime()
     while(True):
         if stime>datetime.datetime.now():
             print("time sleep...")
@@ -38,7 +38,7 @@ def main():
                 surbl_run(stime)
             except Exception,e:
                 print("error:{0}".format(e))
-            detaltime=datetime.timedelta(days=1)
+            #detaltime=datetime.timedelta(days=1)
             stime=stime+detaltime
 
 if __name__ == '__main__':

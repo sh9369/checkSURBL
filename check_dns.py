@@ -25,8 +25,10 @@ def first_check(starttime,timezone):
     newdata=my_tools.clean_dns_data(dataset)
     print("dns data size:{0}".format(len(newdata)))
     # analysis
+    print("analyse data ...")
     docs=my_tools.analyse_info(newdata)
     # insert es
+    print("insert ES ...")
     my_tools.insert_alert(es,docs,alert_idx)
 
 
