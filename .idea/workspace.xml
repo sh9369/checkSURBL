@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="305b0b4e-58d0-483e-b5bb-b3f7f0131bea" name="Default Changelist" comment="" />
+    <list default="true" id="305b0b4e-58d0-483e-b5bb-b3f7f0131bea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/check_XForce.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_XForce.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +34,21 @@
         <counts>
           <entry key="conf" value="58" />
           <entry key="json" value="135" />
-          <entry key="py" value="3101" />
+          <entry key="py" value="3138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="135" />
           <entry key="PLAIN_TEXT" value="58" />
-          <entry key="Python" value="3101" />
+          <entry key="Python" value="3138" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mian.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="536">
@@ -117,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/check_XForce.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="202" column="18" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="18" />
+            <state relative-caret-position="310">
+              <caret line="227" column="21" lean-forward="true" selection-start-line="227" selection-start-column="21" selection-end-line="227" selection-end-column="21" />
               <folding>
                 <element signature="e#132#171#0" expanded="true" />
               </folding>
@@ -141,10 +143,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>a</find>
+      <find>blacklist_tools</find>
     </findStrings>
     <replaceStrings>
       <replace>last_one</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -153,9 +159,9 @@
         <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/mian.py" />
         <option value="$PROJECT_DIR$/ES_class.py" />
-        <option value="$PROJECT_DIR$/check_XForce.py" />
         <option value="$PROJECT_DIR$/my_tools.py" />
         <option value="$PROJECT_DIR$/check_dns.py" />
+        <option value="$PROJECT_DIR$/check_XForce.py" />
       </list>
     </option>
   </component>
@@ -165,6 +171,7 @@
     <option name="width" value="1296" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -219,7 +226,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15500794" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -253,16 +260,6 @@
           <folding>
             <element signature="e#135#174#0" expanded="true" />
             <element signature="e#333#400#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check_XForce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="202" column="18" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="18" />
-          <folding>
-            <element signature="e#132#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -306,6 +303,16 @@
             <element signature="e#131#151#0" expanded="true" />
             <marker date="1542771091755" expanded="true" signature="249:634" ph="..." />
             <marker date="1542771091755" expanded="true" signature="824:1019" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_XForce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="227" column="21" lean-forward="true" selection-start-line="227" selection-start-column="21" selection-end-line="227" selection-end-column="21" />
+          <folding>
+            <element signature="e#132#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
