@@ -84,6 +84,8 @@ def rebuild_alert_info(domain,answer,xfinfo,ansinfo):
         cats_str=','.join(cats_lis)
         doc["xforce_msg"]="cats:"+cats_str
     except Exception, e:
+        print("error:{0}".format(e))
+        print json.dumps(xfinfo)
         doc["xforce_msg"]=None
     try:
         doc["xforce_marks"]=int(xfinfo[domain]["score"])
