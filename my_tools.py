@@ -80,20 +80,25 @@ def rebuild_alert_info(domain,answer,xfinfo,ansinfo):
     doc["level"]="info"
     # xforce message
     try:
-        cats=xfinfo[domain]["cats"]
-        cats_lis=cats.keys()
-        cats_str=','.join(cats_lis)
-        doc["xforce_msg"]="cats:"+cats_str
-    except Exception, e:
-        print("error:{0}".format(e))
-        print json.dumps(xfinfo)
-        doc["xforce_msg"]=None
-    try:
         doc["xforce_marks"]=int(xfinfo[domain]["score"])
     except Exception,e:
         print("error:{0}".format(e))
         print json.dumps(xfinfo)
         doc["xforce_marks"] = 0
+
+    try:
+        if(doc["xforce_marks"] == 0):
+            doc["xforce_msg"] = None
+        else:
+            cats=xfinfo[domain]["cats"]
+            cats_lis=cats.keys()
+            cats_str=','.join(cats_lis)
+            doc["xforce_msg"]="cats:"+cats_str
+    except Exception, e:
+        print("error:{0}".format(e))
+        print json.dumps(xfinfo)
+        doc["xforce_msg"]=None
+
     return doc
 
 '''
