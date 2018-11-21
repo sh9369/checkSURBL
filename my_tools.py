@@ -106,6 +106,7 @@ def analyse_info(data):
         answer=ii[1]
         # check domain
         xf_info=xf.start(2,[domain])
+        print("check xforce...")
         time.sleep(0.5)
         # check answer
         last_one=int(answer.split('.')[-1])
@@ -119,6 +120,7 @@ def analyse_info(data):
         if (last_one & 128):
             ans_info.append("CR")
         # get alert info, doc is dict
+        print("rebuild data ...")
         doc=rebuild_alert_info(domain,answer,xf_info,ans_info)
         docs.append(doc)
     return docs
